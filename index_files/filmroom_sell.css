@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding:0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+body{
+	background: white!important;
+}
+.mian{
+	margin-bottom: 50px;
+}
+.head{
+	width: 100%;
+	height: 400px;
+	background: #292828;
+	text-align: center;
+}
+.head img{
+	height:100%;
+}
+.content{
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 40px;
+}
+.dsc{
+	padding: 5px;
+	line-height: 28px;
+	font-size: 16px;
+	text-align: center;
+}
+.title{
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 30px;
+	height: 30px;
+}
+.kinds{
+	margin-top: 100px;
+}
+.goods{
+	width: 50%;
+	/*height: 300px;*/
+	float: left;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.goods-list ul{
+	overflow: hidden;
+}
+.goods img{
+	width:400px;
+	height: 250px;
+	clear: both;
+}
+.goods div{
+	font-size: 18px;
+	margin-top: 10px;
+}
+.goods-name{
+	color: #000;
+	font-size: 18px;
+}
+.price{
+	color: #e3000e;
+
+}
+.link a{
+	color: #999;
+	cursor: pointer;
+	display: inline-block;
+}
+.video{
+	width: 75px;
+	background: red;
+	text-align: right;
+	background:url(/Public/Home/images/filmroom/play-icon.png) no-repeat;
+	background-size:18px;
+	padding-right: 9px;
+	padding-left: 5px;
+	border-right: 1px solid #999;
+}
+.jd{
+	padding-left: 3px;
+}
+.glass .video{
+	width: 75px;
+}
+.sound .video{
+	width: 75px;
+}
+.single{
+	width: 65px;
+}
+#single{
+	width: 75px;
+}
+#hide{
+	visibility: hidden;
+}
+.finally{
+	width: 112px;
+}
